@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgba(216, 219, 221, 0.167);
+  background-color: rgba(100, 146, 173, 0.63);
 }
 
 .mainSection {
@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(146, 86, 161);
+  background-color: rgb(143, 102, 190);
   box-shadow: 1px 1px 30px grey;
   margin-left: auto;
   margin-right: auto;
@@ -38,14 +38,13 @@ body {
 }
 
 textarea {
-  width: 100%;
+  width: 85%;
   font-size: 1.2rem;
-  margin-left: 1rem;
-  background-color: white;
+  margin-left: 0;
+  background-color: rgb(255, 255, 255);
   border: none;
   resize: none;
-  padding: 1px;
-  padding-top: 20px;
+  padding: 1px 0;
   height: 3.5rem;
 }
 
@@ -55,12 +54,9 @@ textarea {
   font-size: 1.5rem;
   border: none;
   cursor: pointer;
+  background-color: rgba(151, 112, 189, 0.575);
   margin-left: 1.8rem;
   margin-right: 2rem;
-}
-
-.clearCompleted:focus {
-  background-color: rgba(0, 255, 255, 0.153);
 }
 
 .enterBtn {
@@ -72,14 +68,15 @@ textarea {
   padding: 0.2rem;
 }
 
-#inputField {
+.inputField {
   padding: 0.5rem;
-  width: 75rem;
+  width: 85%;
   border: none;
   height: 3.5rem;
   font-size: 1rem;
   font-style: italic;
-  margin-left: 1.8rem;
+  margin-left: 3.2rem;
+  margin-right: 2rem;
 }
 
 h1 {
@@ -87,10 +84,11 @@ h1 {
 }
 
 hr {
-  width: 100%;
+  width: 85%;
   height: 1px;
   background-color: black;
-  margin-left: 2rem;
+  margin: 0 2rem;
+  margin-left: 3rem;
 }
 
 .fa {
@@ -126,7 +124,7 @@ hr {
 @keyframes rotate {
   0% {
     transform: rotate(0);
-    color: red;
+    color: rgb(29, 27, 27);
   }
 
   100% {
