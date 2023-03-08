@@ -7,15 +7,13 @@ describe('DataCollection', () => {
   const localStorageMock = {
     getItem: jest.fn(),
     setItem: jest.fn(),
-    clear: jest.fn()
+    clear: jest.fn(),
   };
 
   // Mock document.querySelector method
-  document.querySelector = jest.fn(() => {
-    return {
-      innerHTML: ''
-    };
-  });
+  document.querySelector = jest.fn(() => ({
+    innerHTML: '',
+  }));
 
   beforeEach(() => {
     // create a new instance of DataCollection for each test
