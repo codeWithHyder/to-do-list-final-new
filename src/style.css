@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgba(147, 154, 158, 0.167);
+  background-color: rgba(100, 146, 173, 0.63);
 }
 
 .mainSection {
@@ -44,8 +44,7 @@ textarea {
   background-color: rgb(255, 255, 255);
   border: none;
   resize: none;
-  padding:1px;
-  padding-top: 20px;
+  padding: 1px 0;
   height: 3.5rem;
 }
 
@@ -55,9 +54,6 @@ textarea {
   font-size: 1.5rem;
   border: none;
   cursor: pointer;
-}
-
-.clearCompleted{
   background-color: rgba(151, 112, 189, 0.575);
 }
 
